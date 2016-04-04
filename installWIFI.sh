@@ -1,5 +1,4 @@
 #!/bin/bash
-# Develop branch.
 
 clear
 echo ""
@@ -25,7 +24,7 @@ echo "   /*/////*////**/*/////////////////////** /*/////"
 sleep 0.05
 echo ""
 sleep 0.05
-echo "+ -- -- -- -- -- --=[ TEAM SAVE's vimrc v0.1 ]"
+echo "+ -- -- -- -- -- --=[ TEAM SAVE's LENOVO500S v0.1 ]"
 echo ""
 
 
