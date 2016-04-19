@@ -108,9 +108,9 @@ echo -n "  Do you want to continue? [y/n] "
 read ANSWER
 case $ANSWER in
 	y|Y)
-		wget https://www.kernel.org/pub/linux/kernel/projects/backpoints/2015/11/20/backports-20151120.tar.gz
+		wget https://www.kernel.org/pub/linux/kernel/projects/backports/2015/11/20/backports-20151120.tar.gz
 		tar -zxvf backports-20151120.tar.gz
-		cd backports-20151120.tar.gz
+		cd backports-20151120
 		if [ $? -ne 0 ];
 		then
 			echo "  Abort."
@@ -132,7 +132,7 @@ echo -n "  Do you want to continue? [y/n] "
 read ANSWER
 case $ANSWER in
 	y|Y)
-		make defconfig -ath10k
+		make defconfig-ath10k
 		make
 		sudo make install
 		if [ $? -ne 0 ];
